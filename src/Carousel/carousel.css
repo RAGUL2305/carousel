@@ -1,0 +1,58 @@
+.carousel-container {
+  width: 75%;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.carousel-main {
+  display: flex;
+  width: 80%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.carousel-item {
+  margin-left: 10px;
+}
+.slide {
+  width: 100px;
+  height: 150px;
+}
+
+.but {
+  position: fixed;
+  z-index: 2;
+  font-size: 30px;
+  margin-top: 50px;
+  width: 50px;
+  height: 40px;
+}
+
+.but2 {
+  position: fixed;
+  z-index: 2;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 56.5%;
+  width: 50px;
+  height: 40px;
+}
+
+.left-arrow {
+  padding: 3px;
+  margin-top: 3px;
+}
+
+.right-arrow {
+  padding: 3px;
+  margin-top: 3px;
+}
+
+.item-name a {
+  text-decoration: none;
+}
+
+.item-name:hover a {
+  text-decoration: underline;
+}
